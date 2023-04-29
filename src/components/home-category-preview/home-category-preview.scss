@@ -9,5 +9,9 @@
       grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
       gap: 20px;
       grid-auto-flow: dense;
+      margin: 10px 0px;
+      @media screen and (max-width: 500px) {
+        grid-template-columns: 1fr;
+      }
     }
   }

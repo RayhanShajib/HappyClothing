@@ -14,6 +14,9 @@
     margin: 18px 0px;
     color: #333333;
     position: relative;
+    @media screen and (max-width: 998px) {
+        font-size: 40px;
+    }
 }
 .description {
     font-size: 18px;
@@ -40,6 +43,9 @@
     margin: 0 auto;
     top: 70px;
     background-color: rgba(0,0,0,0.1);
+    @media screen and (max-width: 998px) {
+        top: 50px;
+    }
 }
 
 .title-section{
