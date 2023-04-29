@@ -1,0 +1,26 @@
+.category-preview-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  .category-preview-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    .title {
+      font-size: 28px;
+    }
+    .view-all-btn {
+      font-size: 18px;
+      background: linear-gradient(135deg, #001aff 0%, #eb00ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    margin-top: 30px;
+  }
+}

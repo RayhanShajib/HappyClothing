@@ -1,0 +1,13 @@
+.home-category-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  
+    .preview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 20px;
+      grid-auto-flow: dense;
+    }
+  }

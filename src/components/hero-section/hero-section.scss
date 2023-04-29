@@ -1,0 +1,26 @@
+.hero-wrapper {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    background: linear-gradient(
+      188.66deg,
+      rgba(227, 227, 227, 0) 13.95%,
+      #ececec 100%
+    );
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 9px 15px;
+    .link {
+      font-size: 14px;
+      color: #484848;
+
+    }
+  }
+}
